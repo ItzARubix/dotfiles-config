@@ -9,6 +9,9 @@ vim.g.mapleader = ' '
 -- This makes it so that omnifunc doesn't autoselect the first option for us
 vim.cmd("set completeopt+=noselect")
 
+-- This makes it so that omnifunc still opens up the menu even when there's only one option
+vim.cmd("set completeopt+=menuone")
+
 -- Add rounded border to floating windows like the diagnostics window
 vim.o.winborder = "rounded"
 
