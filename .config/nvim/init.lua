@@ -23,6 +23,12 @@ vim.keymap.set('n', '<leader>w', ':w<CR>', { noremap = true })
 -- Sets <leader>e to open diagnostics given by LSP
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { noremap = true })
 
+-- Sets <leader>m to move the current line up one
+vim.keymap.set('n', '<leader>m', ':m+1<CR>', { noremap = true })
+
+-- Sets <leader>n to move the current line up one
+vim.keymap.set('n', '<leader>n', ':m-2<CR>', { noremap = true })
+
 
 -- Enable language servers here
 -- See https://github.com/neovim/nvim-lspconfig for more info

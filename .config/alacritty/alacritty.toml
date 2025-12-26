@@ -1,5 +1,5 @@
 [font]
-size = 13
+size = 12
 
 [window]
-dimensions = { columns = 128, lines = 32 }
+dimensions = { columns = 140, lines = 33 }
