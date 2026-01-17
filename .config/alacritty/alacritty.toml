@@ -3,3 +3,6 @@ size = 16
 
 [window]
 dimensions = { columns = 94, lines = 24 }
+
+[terminal]
+shell = "/usr/sbin/fish"
